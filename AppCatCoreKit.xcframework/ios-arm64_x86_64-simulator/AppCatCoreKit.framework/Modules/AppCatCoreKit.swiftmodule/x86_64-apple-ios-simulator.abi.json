@@ -1,0 +1,1798 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AppCatCoreKit",
+    "printedName": "AppCatCoreKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AppCatCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AppCatCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "AppCatCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "AppCatCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "AppCatCoreKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserGeo",
+        "printedName": "UserGeo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "city",
+            "printedName": "city",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppCatCoreKit7UserGeoV4citySSSgvp",
+            "mangledName": "$s13AppCatCoreKit7UserGeoV4citySSSgvp",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV4citySSSgvg",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV4citySSSgvg",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV4citySSSgvs",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV4citySSSgvs",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV4citySSSgvM",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV4citySSSgvM",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppCatCoreKit7UserGeoV11countryCodeSSSgvp",
+            "mangledName": "$s13AppCatCoreKit7UserGeoV11countryCodeSSSgvp",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV11countryCodeSSSgvg",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV11countryCodeSSSgvg",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV11countryCodeSSSgvs",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV11countryCodeSSSgvs",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV11countryCodeSSSgvM",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV11countryCodeSSSgvM",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "carrier",
+            "printedName": "carrier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppCatCoreKit7UserGeoV7carrierSSSgvp",
+            "mangledName": "$s13AppCatCoreKit7UserGeoV7carrierSSSgvp",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV7carrierSSSgvg",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV7carrierSSSgvg",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV7carrierSSSgvs",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV7carrierSSSgvs",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV7carrierSSSgvM",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV7carrierSSSgvM",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timezone",
+            "printedName": "timezone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppCatCoreKit7UserGeoV8timezoneSSSgvp",
+            "mangledName": "$s13AppCatCoreKit7UserGeoV8timezoneSSSgvp",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV8timezoneSSSgvg",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV8timezoneSSSgvg",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV8timezoneSSSgvs",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV8timezoneSSSgvs",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV8timezoneSSSgvM",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV8timezoneSSSgvM",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppCatCoreKit7UserGeoV8latitudeSdSgvp",
+            "mangledName": "$s13AppCatCoreKit7UserGeoV8latitudeSdSgvp",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV8latitudeSdSgvg",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV8latitudeSdSgvg",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV8latitudeSdSgvs",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV8latitudeSdSgvs",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV8latitudeSdSgvM",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV8latitudeSdSgvM",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppCatCoreKit7UserGeoV9longitudeSdSgvp",
+            "mangledName": "$s13AppCatCoreKit7UserGeoV9longitudeSdSgvp",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV9longitudeSdSgvg",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV9longitudeSdSgvg",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV9longitudeSdSgvs",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV9longitudeSdSgvs",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit7UserGeoV9longitudeSdSgvM",
+                "mangledName": "$s13AppCatCoreKit7UserGeoV9longitudeSdSgvM",
+                "moduleName": "AppCatCoreKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(city:countryCode:carrier:timezone:latitude:longitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserGeo",
+                "printedName": "AppCatCoreKit.UserGeo",
+                "usr": "s:13AppCatCoreKit7UserGeoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13AppCatCoreKit7UserGeoV4city11countryCode7carrier8timezone8latitude9longitudeACSSSg_A3JSdSgAKtcfc",
+            "mangledName": "$s13AppCatCoreKit7UserGeoV4city11countryCode7carrier8timezone8latitude9longitudeACSSSg_A3JSdSgAKtcfc",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13AppCatCoreKit7UserGeoV",
+        "mangledName": "$s13AppCatCoreKit7UserGeoV",
+        "moduleName": "AppCatCoreKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppCatCore",
+        "printedName": "AppCatCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppCatCore",
+                "printedName": "AppCatCoreKit.AppCatCore",
+                "usr": "s:13AppCatCoreKit0abC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AppCatCoreKit0abC0C6sharedACvpZ",
+            "mangledName": "$s13AppCatCoreKit0abC0C6sharedACvpZ",
+            "moduleName": "AppCatCoreKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AppCatCore",
+                    "printedName": "AppCatCoreKit.AppCatCore",
+                    "usr": "s:13AppCatCoreKit0abC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AppCatCoreKit0abC0C6sharedACvgZ",
+                "mangledName": "$s13AppCatCoreKit0abC0C6sharedACvgZ",
+                "moduleName": "AppCatCoreKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AppCatError",
+            "printedName": "AppCatError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "invalidConfig",
+                "printedName": "invalidConfig",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppCatCoreKit.AppCatCore.AppCatError.Type) -> (Swift.String) -> AppCatCoreKit.AppCatCore.AppCatError",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> AppCatCoreKit.AppCatCore.AppCatError",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppCatError",
+                            "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                            "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppCatCoreKit.AppCatCore.AppCatError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppCatError",
+                            "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                            "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO13invalidConfigyAESScAEmF",
+                "mangledName": "$s13AppCatCoreKit0abC0C0aB5ErrorO13invalidConfigyAESScAEmF",
+                "moduleName": "AppCatCoreKit"
+              },
+              {
+                "kind": "Var",
+                "name": "notConfigured",
+                "printedName": "notConfigured",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppCatCoreKit.AppCatCore.AppCatError.Type) -> AppCatCoreKit.AppCatCore.AppCatError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppCatError",
+                        "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                        "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppCatCoreKit.AppCatCore.AppCatError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppCatError",
+                            "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                            "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO13notConfiguredyA2EmF",
+                "mangledName": "$s13AppCatCoreKit0abC0C0aB5ErrorO13notConfiguredyA2EmF",
+                "moduleName": "AppCatCoreKit"
+              },
+              {
+                "kind": "Var",
+                "name": "serializationFailed",
+                "printedName": "serializationFailed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppCatCoreKit.AppCatCore.AppCatError.Type) -> (any Swift.Error) -> AppCatCoreKit.AppCatCore.AppCatError",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any Swift.Error) -> AppCatCoreKit.AppCatCore.AppCatError",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppCatError",
+                            "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                            "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "AppCatCoreKit.AppCatCore.AppCatError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AppCatError",
+                            "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                            "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO19serializationFailedyAEs0E0_pcAEmF",
+                "mangledName": "$s13AppCatCoreKit0abC0C0aB5ErrorO19serializationFailedyAEs0E0_pcAEmF",
+                "moduleName": "AppCatCoreKit"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO",
+            "mangledName": "$s13AppCatCoreKit0abC0C0aB5ErrorO",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(appId:apiKey:options:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, AppCatCoreKit.AppCatCore.AppCatError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, AppCatCoreKit.AppCatCore.AppCatError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppCatError",
+                        "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                        "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C9configure5appId6apiKey7options10completionySS_SSSDySSypGys6ResultOySbAC0aB5ErrorOGctF",
+            "mangledName": "$s13AppCatCoreKit0abC0C9configure5appId6apiKey7options10completionySS_SSSDySSypGys6ResultOySbAC0aB5ErrorOGctF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUserGeo",
+            "printedName": "setUserGeo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserGeo",
+                "printedName": "AppCatCoreKit.UserGeo",
+                "usr": "s:13AppCatCoreKit7UserGeoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C10setUserGeoyyAA0fG0VF",
+            "mangledName": "$s13AppCatCoreKit0abC0C10setUserGeoyyAA0fG0VF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(ddlToken:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], AppCatCoreKit.AppCatCore.AppCatError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], AppCatCoreKit.AppCatCore.AppCatError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppCatError",
+                        "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                        "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C7resolve8ddlToken10completionySSSg_ys6ResultOySDySSypGAC0aB5ErrorOGctF",
+            "mangledName": "$s13AppCatCoreKit0abC0C7resolve8ddlToken10completionySSSg_ys6ResultOySDySSypGAC0aB5ErrorOGctF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "identify",
+            "printedName": "identify(data:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any]?, AppCatCoreKit.AppCatCore.AppCatError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any]?, AppCatCoreKit.AppCatCore.AppCatError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppCatError",
+                        "printedName": "AppCatCoreKit.AppCatCore.AppCatError",
+                        "usr": "s:13AppCatCoreKit0abC0C0aB5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C8identify4data10completionySDySSypG_ys6ResultOyAGSgAC0aB5ErrorOGctF",
+            "mangledName": "$s13AppCatCoreKit0abC0C8identify4data10completionySDySSypG_ys6ResultOyAGSgAC0aB5ErrorOGctF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(eventName:params:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C9sendEvent9eventName6params7optionsySS_SDySSypGSgAItF",
+            "mangledName": "$s13AppCatCoreKit0abC0C9sendEvent9eventName6params7optionsySS_SDySSypGSgAItF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAttribution",
+            "printedName": "getAttribution()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C14getAttributionSDySSypGSgyF",
+            "mangledName": "$s13AppCatCoreKit0abC0C14getAttributionSDySSypGSgyF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceContext",
+            "printedName": "getDeviceContext()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C16getDeviceContextSDySSypGSgyF",
+            "mangledName": "$s13AppCatCoreKit0abC0C16getDeviceContextSDySSypGSgyF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAppCatId",
+            "printedName": "getAppCatId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C03getaB2IdSSyF",
+            "mangledName": "$s13AppCatCoreKit0abC0C03getaB2IdSSyF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDisabled",
+            "printedName": "isDisabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C10isDisabledSbyF",
+            "mangledName": "$s13AppCatCoreKit0abC0C10isDisabledSbyF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogLevel",
+            "printedName": "setLogLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C11setLogLevelyySiF",
+            "mangledName": "$s13AppCatCoreKit0abC0C11setLogLevelyySiF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLogLevel",
+            "printedName": "getLogLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C11getLogLevelSiyF",
+            "mangledName": "$s13AppCatCoreKit0abC0C11getLogLevelSiyF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTrackingConsent",
+            "printedName": "setTrackingConsent(granted:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(), any Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(), any Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AppCatCoreKit0abC0C18setTrackingConsent7granted10completionySb_ys6ResultOyyts5Error_pGcSgtF",
+            "mangledName": "$s13AppCatCoreKit0abC0C18setTrackingConsent7granted10completionySb_ys6ResultOyyts5Error_pGcSgtF",
+            "moduleName": "AppCatCoreKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13AppCatCoreKit0abC0C",
+        "mangledName": "$s13AppCatCoreKit0abC0C",
+        "moduleName": "AppCatCoreKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 23,
+      "value": "\"https:\/\/appcat.ai\/api\""
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2044,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2085,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2121,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2183,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "StringLiteral",
+      "offset": 3179,
+      "length": 20,
+      "value": "\"com.appcat.resolve\""
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "StringLiteral",
+      "offset": 3288,
+      "length": 29,
+      "value": "\"ddl_had_deep_link_params_v1\""
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "StringLiteral",
+      "offset": 3356,
+      "length": 30,
+      "value": "\"appcat_pending_deep_link_url\""
+    }
+  ]
+}
