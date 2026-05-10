@@ -1062,13 +1062,6 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
@@ -1076,10 +1069,24 @@
               },
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -1776,23 +1783,58 @@
     {
       "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 3245,
       "length": 20,
       "value": "\"com.appcat.resolve\""
     },
     {
       "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
       "kind": "StringLiteral",
-      "offset": 3288,
+      "offset": 4259,
+      "length": 29,
+      "value": "\"com.appcat.attributionReady\""
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4325,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "Array",
+      "offset": 4385,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4576,
+      "length": 18,
+      "value": "\"MobileAppInstall\""
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "StringLiteral",
+      "offset": 6438,
       "length": 29,
       "value": "\"ddl_had_deep_link_params_v1\""
     },
     {
       "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
       "kind": "StringLiteral",
-      "offset": 3356,
+      "offset": 6506,
       "length": 30,
       "value": "\"appcat_pending_deep_link_url\""
+    },
+    {
+      "filePath": "\/Users\/Shivam\/Documents\/Sites\/appcat\/closed-source\/appcat\/client-sdks\/appcat-core-ios\/AppCatCore\/AppCatCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10439,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
